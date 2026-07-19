@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@color/dark_coal">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Write a Review"
+        android:textColor="@color/text_white"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:paddingBottom="16dp" />
+
+
+    <!-- Customer Name -->
+
+    <EditText
+        android:id="@+id/reviewNameInput"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Your Name"
+        android:textColor="@color/text_white"
+        android:textColorHint="@color/text_muted"
+        android:backgroundTint="@color/champagne_gold"
+        android:padding="12dp" />
+
+
+    <!-- Rating -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rating"
+        android:textColor="@color/text_white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:paddingTop="16dp" />
+
+
+    <RatingBar
+        android:id="@+id/reviewRatingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:stepSize="1"
+        android:rating="5" />
+
+
+    <!-- Comment -->
+
+    <EditText
+        android:id="@+id/reviewCommentInput"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:hint="Write your review..."
+        android:gravity="top"
+        android:inputType="textMultiLine"
+        android:textColor="@color/text_white"
+        android:textColorHint="@color/text_muted"
+        android:backgroundTint="@color/champagne_gold"
+        android:padding="12dp"
+        android:layout_marginTop="16dp" />
+
+
+    <!-- Submit Button -->
+
+    <Button
+        android:id="@+id/submitReviewBtn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Submit Review"
+        android:textStyle="bold"
+        android:textColor="@color/dark_coal"
+        android:backgroundTint="@color/champagne_gold"
+        android:layout_marginTop="20dp" />
+
+
+</LinearLayout>

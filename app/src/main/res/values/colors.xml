@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="dark_coal">#12161A</color>
+    <color name="charcoal_card">#1A1F26</color>
+    <color name="champagne_gold">#D4AF37</color>
+    <color name="champagne_light">#E6C655</color>
+    <color name="text_white">#FFFFFF</color>
+    <color name="text_muted">#8A95A5</color>
+</resources>
+

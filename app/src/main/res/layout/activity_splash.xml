@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0B0B0B"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <ImageView
+        android:id="@+id/brandLogo"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:src="@drawable/ic_dress_icon"
+        android:contentDescription="Abigail Apparel Luxury Logo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="ABIGAIL'S"
+        android:textColor="#E5D3B3"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:letterSpacing="0.2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="APPAREL"
+        android:textColor="#FFFFFF"
+        android:fontFamily="sans-serif-light"
+        android:textSize="13sp"
+        android:letterSpacing="0.6" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Best Clothing Brand in Accra 🔥"
+        android:textColor="#8E8E93"
+        android:textSize="13sp"
+        android:fontFamily="sans-serif-light"
+        android:layout_marginTop="16dp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="160dp"
+        android:layout_height="3dp"
+        android:layout_marginTop="40dp"
+        android:progressTint="#E5D3B3"
+        android:indeterminate="true" />
+
+</LinearLayout>

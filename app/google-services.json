@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "365892814589",
+    "project_id": "abigailclothingbrand",
+    "storage_bucket": "abigailclothingbrand.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:365892814589:android:62040f427db01c4af8e094",
+        "android_client_info": {
+          "package_name": "com.mervygadgets.abigailclothingbrand"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7XDO-Y1WBbem4hw3WOhnh2-pneSShrYg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

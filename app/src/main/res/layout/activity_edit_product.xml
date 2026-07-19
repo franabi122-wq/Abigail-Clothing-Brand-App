@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:padding="24dp"
+    tools:context=".activities.EditProductActivity">
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+
+        <!-- Brand Logo Banner -->
+
+        <ImageView
+
+            android:id="@+id/editProductBanner"
+
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+
+            android:src="@drawable/ic_logo_icon"
+
+            android:scaleType="centerInside"
+
+            android:layout_marginBottom="20dp"/>
+
+
+
+        <!-- Brand Name -->
+
+        <TextView
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:text="ABIGAIL CLOTHING BRAND"
+
+            android:textColor="#D4AF37"
+
+            android:textSize="22sp"
+
+            android:textStyle="bold"
+
+            android:layout_marginBottom="8dp"/>
+
+
+
+        <!-- Page Title -->
+
+        <TextView
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:text="Edit Product Details"
+
+            android:textColor="#FFFFFF"
+
+            android:textSize="18sp"
+
+            android:textStyle="bold"
+
+            android:layout_marginBottom="30dp"/>
+
+
+
+
+        <!-- Product Name -->
+
+        <EditText
+
+            android:id="@+id/etName"
+
+            android:layout_width="match_parent"
+
+            android:layout_height="55dp"
+
+            android:hint="Product Name"
+
+            android:textColor="#FFFFFF"
+
+            android:textColorHint="#BDBDBD"
+
+            android:background="@drawable/gold_edittext_background"
+
+            android:padding="15dp"
+
+            android:inputType="text"
+
+            android:layout_marginBottom="18dp"/>
+
+
+
+        <!-- Price -->
+
+        <EditText
+
+            android:id="@+id/etPrice"
+
+            android:layout_width="match_parent"
+
+            android:layout_height="55dp"
+
+            android:hint="Price (GHS)"
+
+            android:textColor="#FFFFFF"
+
+            android:textColorHint="#BDBDBD"
+
+            android:background="@drawable/gold_edittext_background"
+
+            android:padding="15dp"
+
+            android:inputType="numberDecimal"
+
+            android:layout_marginBottom="18dp"/>
+
+
+
+        <!-- Category -->
+
+        <EditText
+
+            android:id="@+id/etCategory"
+
+            android:layout_width="match_parent"
+
+            android:layout_height="55dp"
+
+            android:hint="Category"
+
+            android:textColor="#FFFFFF"
+
+            android:textColorHint="#BDBDBD"
+
+            android:background="@drawable/gold_edittext_background"
+
+            android:padding="15dp"
+
+            android:layout_marginBottom="18dp"/>
+
+
+
+
+        <!-- Description -->
+
+        <EditText
+
+            android:id="@+id/etDescription"
+
+            android:layout_width="match_parent"
+
+            android:layout_height="80dp"
+
+            android:hint="Description"
+
+            android:gravity="top"
+
+            android:textColor="#FFFFFF"
+
+            android:textColorHint="#BDBDBD"
+
+            android:background="@drawable/gold_edittext_background"
+
+            android:padding="15dp"
+
+            android:layout_marginBottom="18dp"/>
+
+
+
+
+        <!-- Image URL -->
+
+        <EditText
+
+            android:id="@+id/etImageUrl"
+
+            android:layout_width="match_parent"
+
+            android:layout_height="55dp"
+
+            android:hint="Image URL"
+
+            android:textColor="#FFFFFF"
+
+            android:textColorHint="#BDBDBD"
+
+            android:background="@drawable/gold_edittext_background"
+
+            android:padding="15dp"
+
+            android:layout_marginBottom="30dp"/>
+
+
+
+
+        <!-- Save Button -->
+
+        <Button
+
+            android:id="@+id/btnSave"
+
+            android:layout_width="match_parent"
+
+            android:layout_height="55dp"
+
+            android:text="SAVE CHANGES"
+
+            android:textColor="#000000"
+
+            android:textSize="16sp"
+
+            android:textStyle="bold"
+
+            android:backgroundTint="#D4AF37"
+
+            android:layout_marginBottom="22dp"/>
+
+
+    </LinearLayout>
+
+
+</ScrollView>
