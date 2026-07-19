@@ -112,7 +112,7 @@ Product Categories:
 ![alt text](<Product Categories page.png>)
 
 Product Save Page:
-![alt text](<Product save page-1.png>)
+![alt text](<Product Save Page.png>)
 
 Login Page:
 ![alt text](<Login Page.png>)
