@@ -1,99 +1,50 @@
-﻿Abigail Clothing Brand(ACB)
-
+﻿Abigail Clothing Brand (ACB)
 Project Overview
-
-Abigail Apparel is an Android-based e-commerce mobile application developed to provide users with a simple and convenient platform for shopping fashion products online. The application allows users to browse clothing products, add items to cart, and place orders through a mobile interface.
-
-
-
-The project was developed using Java and XML in Android Studio with backend integration through REST APIs and database systems.
-
----
-
+Abigail Clothing Brand (ACB), also referred to as Abigail Apparel, is an Android-based e-commerce mobile application developed to provide users with a simple and convenient platform for shopping fashion products online.
+The application allows users to browse clothing products, explore product categories, add items to a shopping cart, and place orders through a mobile interface.
+The project was developed using Java and XML in Android Studio, with backend integration through Supabase/PostgreSQL, REST APIs, JSON, and mobile money payment services.
 Key Features
-
-* User Registration and Login
-
-* Product Listings
- 
-* Product Categories
- 
-* Shopping Cart System
- 
-* Order Placement
- 
-* Mobile Money Checkout
- 
-* API Integration
- 
-* Responsive User Interface
-
----
-
-Technologies Used/Technical Stack
-
+User Registration and Login
+Product Listings
+Product Categories
+Product Details
+Shopping Cart System
+Order Placement
+Mobile Money Checkout
+Order History
+API Integration
+Responsive User Interface
+Supabase Backend Integration
+Technologies Used / Technical Stack
 Java
-
 XML
-
 Android Studio
-
 REST APIs
-
-PostgreSQL / SupaBase
-
+Supabase / PostgreSQL
 JSON
-
+Git
 GitHub
-
----
-
 Project Structure
-
 Abigail Apparel
-
 ├── app
-
 ├── models
-
 ├── adapters
-
 ├── activities
-
 ├── fragments
-
 ├── network
-
 ├── database
-
 └── resources
-
----
-
 Installation
-
-1\. Clone or download the project.
-
-2\. Open the project in Android Studio.
-
-3\. Sync Gradle files.
-
-4\. Configure API endpoints and database connection.
-
-5\. Run the application on an Android device or emulator.
-
----
-
+Clone or download the project.
+Open the project in Android Studio.
+Sync the Gradle files.
+Configure the required API endpoints and database connection.
+Run the application on an Android device or emulator.
 System Requirements
-
 Android Studio
-
 Android SDK
-
 Java Development Kit (JDK)
-
 Internet connection for API communication
-
 --Application Screenshots
 
 Splash Screen:
@@ -135,8 +86,8 @@ Order History Page:
 ---
 
 Database Schema
-
-The Abigail Apparel Application uses a SupaBase/PostgreSQL database to analyse, manage and store application data such as users, products, categories, carts, and orders. The database schema was designed to ensure efficient data storage and communication between the mobile application and Backend services.
+The Abigail Apparel application uses a Supabase/PostgreSQL database to store and manage application data such as users, products, categories, carts, and orders.
+The database schema was designed to support efficient data storage and communication between the Android application and backend services.
 
 Order table schema:
 ![alt text](SupaBase_order_table_schema.png)
@@ -146,53 +97,46 @@ Products table schema:
 
 ----
 
+Payment Integration
+The application includes a mobile money checkout workflow for processing payments during order checkout.
+Payment integration was developed and tested using an API-based payment workflow connected through the application's backend services.
+The project also includes payment status tracking to help verify the result of a payment transaction before completing an order.
+
+---
 Challenges Faced
-
-During development, several challenges I encountered includes:
-
+During development, I encountered and worked through several challenges, including:
 Package refactoring
-
 API integration issues
-
 Database configuration
-
 UI debugging
-
+Payment integration and testing
 Learning new Android development concepts
-
 ---
 
 System Maintenance
-
-The Abigail Apparel project was maintained by fixing bugs, updating features, improving the user interface, correcting database and API issues, and ensuring that the application functioned properly during testing and development.
+The Abigail Apparel project was maintained throughout development by fixing bugs, updating features, improving the user interface, resolving database and API issues, and ensuring that the application functioned properly during testing and development.
 
 ---
-
 Future Improvements
-
 Possible future improvements include:
-
 Push notifications
-
-Improved payment integration
-
+Production-ready payment integration
 Admin dashboard
-
 Enhanced security features
-
 Product search and filtering
+Improved order management
+Additional e-commerce functionality
 
 ---
 
 Conclusion
-
-The Abigail Apparel application successfully demonstrates the development of a mobile e-commerce platform using Android technologies. The project helped improve practical knowledge in Android development, API integration, database management, and software engineering.
+The Abigail Apparel application demonstrates practical experience in Android application development, API integration, database management, mobile payment workflows, and software engineering.
+The project provided hands-on experience in developing, integrating, debugging, testing, and maintaining a mobile e-commerce application.
 
 ---
 
 Developer
-
-Developed by Abigail Quansah. 
-Licensed Copywright @ 2026
+Developed by Abigail Quansah
+Copyright © 2026 Abigail Quansah
 
 
