@@ -3,6 +3,8 @@ Project Overview
 Abigail Clothing Brand (ACB), also referred to as Abigail Apparel, is an Android-based e-commerce mobile application developed to provide users with a simple and convenient platform for shopping fashion products online.
 The application allows users to browse clothing products, explore product categories, add items to a shopping cart, and place orders through a mobile interface.
 The project was developed using Java and XML in Android Studio, with backend integration through Supabase/PostgreSQL, REST APIs, JSON, and mobile money payment services.
+
+---
 Key Features
 User Registration and Login
 Product Listings
@@ -15,6 +17,8 @@ Order History
 API Integration
 Responsive User Interface
 Supabase Backend Integration
+
+---
 Technologies Used / Technical Stack
 Java
 XML
@@ -24,6 +28,8 @@ Supabase / PostgreSQL
 JSON
 Git
 GitHub
+
+---
 Project Structure
 Abigail Apparel
 ├── app
@@ -34,18 +40,24 @@ Abigail Apparel
 ├── network
 ├── database
 └── resources
+
+---
 Installation
 Clone or download the project.
 Open the project in Android Studio.
 Sync the Gradle files.
 Configure the required API endpoints and database connection.
 Run the application on an Android device or emulator.
+
+---
 System Requirements
 Android Studio
 Android SDK
 Java Development Kit (JDK)
 Internet connection for API communication
---Application Screenshots
+
+---
+Application Screenshots
 
 Splash Screen:
 ![alt text](<Splash Screen page-1.png>)
@@ -103,6 +115,7 @@ Payment integration was developed and tested using an API-based payment workflow
 The project also includes payment status tracking to help verify the result of a payment transaction before completing an order.
 
 ---
+
 Challenges Faced
 During development, I encountered and worked through several challenges, including:
 Package refactoring
