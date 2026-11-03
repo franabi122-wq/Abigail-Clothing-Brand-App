@@ -67,11 +67,11 @@ The following screenshots showcase the application's existing user interface.
     <td><img width="270" alt="Application Screenshot 1" src="Splash Screen page-1.png" /></td>
     <td><img width="270" alt="Application Screenshot 2" src="Admin Page.png" /></td>
   <tr>
-    <td><img width="270" alt="Application Screenshot 5" src="Product Detail.png" /></td>
-    <td><img width="270" alt="Application Screenshot 7" src="Product Save Page.png" /></td>
-    <td><img width="270" alt="Application Screenshot 8" src="Login Page.png" /></td>
-    <td><img width="270" alt="Application Screenshot 9" src="Signup Page.png" /></td>
-    <td><img width="270" alt="Application Screenshot 10" src="Cart page.png" /></td>
+    <td><img width="270" alt="Application Screenshot 3" src="Product Detail.png" /></td>
+    <td><img width="270" alt="Application Screenshot 4" src="Product Save Page.png" /></td>
+    <td><img width="270" alt="Application Screenshot 5" src="Login Page.png" /></td>
+    <td><img width="270" alt="Application Screenshot 6" src="Signup Page.png" /></td>
+    <td><img width="270" alt="Application Screenshot 7" src="Cart page.png" /></td>
     
     
     
@@ -86,10 +86,10 @@ The Abigail Apparel application uses a Supabase/PostgreSQL database to store and
 The database schema was designed to support efficient data storage and communication between the Android application and backend services.
 
 Order table schema:
-<td><img width="270" alt="Application Screenshot 11" src="SupaBase_order_table_schema.png" /></td>
+<td><img width="270" alt="Application Screenshot 8" src="SupaBase_order_table_schema.png" /></td>
     
 Products table schema:
-<td><img width="270" alt="Application Screenshot 12" src="SupaBase_products_table_schema.png" /></td>
+<td><img width="270" alt="Application Screenshot 9" src="SupaBase_products_table_schema.png" /></td>
     
 ----
 
