@@ -1,7 +1,5 @@
-Abigail Clothing Brand Application
- 
- Abigail Clothing Brand (ACB)
-Project Overview
+                                            Abigail Clothing Brand (ACB)
+                                                  Project Overview
 Abigail Clothing Brand (ACB), also referred to as Abigail Apparel, is an Android-based e-commerce mobile application developed to provide users with a simple and convenient platform for shopping fashion products online.
 The application allows users to browse clothing products, explore product categories, add items to a shopping cart, and place orders through a mobile interface.
 The project was developed using Java and XML in Android Studio, with backend integration through Supabase/PostgreSQL, REST APIs, JSON, and mobile money payment services.
