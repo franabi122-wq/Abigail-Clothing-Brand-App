@@ -57,43 +57,25 @@ Java Development Kit (JDK)
 Internet connection for API communication
 
 ---
+
 Application Screenshots
 
-Splash Screen:
-![alt text](<Splash Screen page-1.png>)
+The following screenshots showcase the application's existing user interface.
 
-Admin Page:
-![alt text](<Admin Page.png>)
+<table>
+  <tr>
+    <td><img width="270" alt="Application Screenshot 1" src="Splash Screen page-1.png>" /></td>
+    <td><img width="270" alt="Application Screenshot 2" src="Admin Page.png" /></td>
+    <td><img width="270" alt="Application Screenshot 3" src="Home screen page.png" /></td>
+    </tr>
+  <tr>
+    <td><img width="270" alt="Application Screenshot 5" src="Product Detail.png" /></td>
+    <td><img width="270" alt="Application Screenshot 6" src="Product Categories page.png" /></td>
+    <td><img width="270" alt="Application Screenshot 7" src="Product Save Page.pn" /></td>
+    <td><img width="270" alt="Application Screenshot 8" src="Login Page.png" /></td>
+</tr>
+</table>
 
-Home Page:
-![alt text](<Home screen page.png>)
-
-Product Details:
-![alt text](<Product Detail.png>)
-
-Product Categories:
-![alt text](<Product Categories page.png>)
-
-Product Save Page:
-![alt text](<Product Save Page.png>)
-
-Login Page:
-![alt text](<Login Page.png>)
-
-Signup Page:
-![alt text](<Signup Page.png>)
-
-Cart Page:
-![alt text](<Cart page.png>)
-
-Check-out Page:
-![alt text](<Checkout page.png>)
-
-Order Success Screen:
-![alt text](<Order Success Page.png>)
-
-Order History Page:
-![alt text](<Order History Page.png>)
 ---
 
 Database Schema
