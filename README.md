@@ -94,7 +94,6 @@ Order Success Screen:
 
 Order History Page:
 ![alt text](<Order History Page.png>)
-
 ---
 
 Database Schema
