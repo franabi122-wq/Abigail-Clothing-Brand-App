@@ -64,14 +64,14 @@ The following screenshots showcase the application's existing user interface.
 
 <table>
   <tr>
-    <td><img width="270" alt="Application Screenshot 1" src="Splash Screen page-1.png>" /></td>
+    <td><img width="270" alt="Application Screenshot 1" src="Splash Screen page-1.png" /></td>
     <td><img width="270" alt="Application Screenshot 2" src="Admin Page.png" /></td>
     <td><img width="270" alt="Application Screenshot 3" src="Home screen page.png" /></td>
     </tr>
   <tr>
     <td><img width="270" alt="Application Screenshot 5" src="Product Detail.png" /></td>
     <td><img width="270" alt="Application Screenshot 6" src="Product Categories page.png" /></td>
-    <td><img width="270" alt="Application Screenshot 7" src="Product Save Page.pn" /></td>
+    <td><img width="270" alt="Application Screenshot 7" src="Product Save Page.png" /></td>
     <td><img width="270" alt="Application Screenshot 8" src="Login Page.png" /></td>
 </tr>
 </table>
