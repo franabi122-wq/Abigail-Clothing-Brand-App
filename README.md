@@ -70,7 +70,6 @@ The following screenshots showcase the application's existing user interface.
     </tr>
   <tr>
     <td><img width="270" alt="Application Screenshot 5" src="Product Detail.png" /></td>
-    <td><img width="270" alt="Application Screenshot 6" src="Product Categories page.png" /></td>
     <td><img width="270" alt="Application Screenshot 7" src="Product Save Page.png" /></td>
     <td><img width="270" alt="Application Screenshot 8" src="Login Page.png" /></td>
     <td><img width="270" alt="Application Screenshot 9" src="Signup Page.png" /></td>
