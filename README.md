@@ -73,8 +73,14 @@ The following screenshots showcase the application's existing user interface.
     <td><img width="270" alt="Application Screenshot 6" src="Product Categories page.png" /></td>
     <td><img width="270" alt="Application Screenshot 7" src="Product Save Page.png" /></td>
     <td><img width="270" alt="Application Screenshot 8" src="Login Page.png" /></td>
+    <td><img width="270" alt="Application Screenshot 9" src="Signup Page.png" /></td>
+    <td><img width="270" alt="Application Screenshot 10" src="<Cart page.png" /></td>
+    
+    
+    
 </tr>
 </table>
+
 
 ---
 
@@ -83,11 +89,11 @@ The Abigail Apparel application uses a Supabase/PostgreSQL database to store and
 The database schema was designed to support efficient data storage and communication between the Android application and backend services.
 
 Order table schema:
-![alt text](SupaBase_order_table_schema.png)
-
+<td><img width="270" alt="Application Screenshot 11" src="SupaBase_order_table_schema.png" /></td>
+    
 Products table schema:
-![alt text](SupaBase_products_table_schema.png)
-
+<td><img width="270" alt="Application Screenshot 12" src="SupaBase_products_table_schema.png" /></td>
+    
 ----
 
 Payment Integration
